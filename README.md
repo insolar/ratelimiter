@@ -1,14 +1,8 @@
-# slidingwindow
+# ratelimiter
 
-Golang implementation of Sliding Window Algorithm for distributed rate limiting.
+Golang implementation of Sliding Window Algorithm for local and distributed rate limiting.
 
-
-## Installation
-
-```bash
-$ go get -u github.com/RussellLuo/slidingwindow
-```
-
+It is a copy of the [repository](https://github.com/RussellLuo/slidingwindow).
 
 ## Design
 
@@ -34,16 +28,11 @@ count = 86 * ((60-15)/60) + 12
 For details, see [testutil](testutil).
 
 
-## Documentation
-
-For usage and examples see the [Godoc][2].
-
 
 ## License
 
-[MIT][3]
+[MIT][2]
 
 
 [1]: https://konghq.com/blog/how-to-design-a-scalable-rate-limiting-algorithm/
-[2]: https://godoc.org/github.com/RussellLuo/slidingwindow
-[3]: http://opensource.org/licenses/MIT
+[2]: http://opensource.org/licenses/MIT
