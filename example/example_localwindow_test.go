@@ -1,10 +1,10 @@
-package slidingwindow_test
+package example
 
 import (
 	"fmt"
 	"time"
 
-	sw "github.com/RussellLuo/slidingwindow"
+	sw "github.com/insolar/ratelimiter/slidingwindow"
 )
 
 func Example_localWindow() {

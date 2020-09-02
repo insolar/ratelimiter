@@ -1,12 +1,13 @@
-package slidingwindow_test
+package example
 
 import (
 	"fmt"
 	"strconv"
 	"time"
 
-	sw "github.com/RussellLuo/slidingwindow"
 	"github.com/go-redis/redis"
+
+	sw "github.com/insolar/ratelimiter/slidingwindow"
 )
 
 // RedisDatastore is a reference implementation of the Redis-based datastore,
